@@ -31,8 +31,7 @@
   "dependencies": {
     "chalk": "^2.3.0",
     "commander": "^2.12.2",
-    "dedent": "^0.7.0",
-    "tty-table": "^2.5.5"
+    "dedent": "^0.7.0"
   },
   "engines": {
     "node": ">=8"

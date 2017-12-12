@@ -53,7 +53,7 @@ describe('List Command', () => {
 
     it('should output the table', () => (
       listCommand().then(() => {
-        sinon.assert.callCount(logger.log, 4);
+        sinon.assert.callCount(logger.log, 18);
       })
     ));
   });
