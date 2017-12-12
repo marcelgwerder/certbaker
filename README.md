@@ -24,7 +24,7 @@ certbaker b dev.example.com
 ```
 3. Copy the provided snippet to your vhost or use the certificate in any way you wish.
 
-## List certificates
+## List Certificates
 To list the already generated certificates stored in your home directory simply run:
 ```
 certbaker l 
