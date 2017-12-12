@@ -1,6 +1,8 @@
-*WORK IN PROGRESS*
-
 # Certbaker
+[![Build Status](https://travis-ci.org/marcelgwerder/certbaker.svg?branch=master)](https://travis-ci.org/marcelgwerder/certbaker)
+[![Coverage Status](https://coveralls.io/repos/github/marcelgwerder/certbaker/badge.svg?branch=master)](https://coveralls.io/github/marcelgwerder/certbaker?branch=master)
+[![GitHub license](https://img.shields.io/github/license/marcelgwerder/certbaker.svg)](https://github.com/marcelgwerder/certbaker/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/certbaker.svg)](https://www.npmjs.com/package/certbaker)
 
 Certbaker is a command line utility that was created out of the need to easily manage fully trusted ssl certificates for development environments with many vhosts and domains. Some browser features only work with trusted certificates and thus the simplest approach is to create a root certificate base all the subsequent certificates on the root. The root can then be added to the trusted authorities. Certbaker acts as an OpenSSL wrapper and simplifies that process.
 

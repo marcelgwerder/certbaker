@@ -1,6 +1,6 @@
 {
   "name": "certbaker",
-  "version": "0.0.0",
+  "version": "1.0.0-beta",
   "description": "Utility to generate openssl certificates for local development.",
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
     "certificates",
     "ssl"
   ],
-  "author": "Marcel Gwerder",
+  "author": "Marcel Gwerder <info@marcelgwerder.ch>",
   "license": "MIT",
   "devDependencies": {
     "coveralls": "^3.0.0",
