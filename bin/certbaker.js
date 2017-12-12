@@ -38,6 +38,7 @@ commander
 
 commander
   .command('list')
+  .alias('l')
   .description('List the generated certificates.')
   .action(listCommand);
 
