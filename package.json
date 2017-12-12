@@ -2,9 +2,9 @@
   "name": "certbaker",
   "version": "0.0.0",
   "description": "Utility to generate openssl certificates for local development.",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/marcelgwerder/certbaker.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcelgwerder/certbaker.git"
   },
   "main": "bin/certbaker.js",
   "bin": {
