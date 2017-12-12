@@ -13,7 +13,7 @@ describe('logger', () => {
       console.log.callThrough();
     });
 
-    it('should log if not in test environment', () => {
+    it('should log if in production environment', () => {
       sinon.stub(process.env, 'NODE_ENV').value('production');
 
       log('I\'m in production');
