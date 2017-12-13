@@ -1,6 +1,6 @@
 {
   "name": "certbaker",
-  "version": "1.0.0-beta",
+  "version": "1.0.0-beta.2",
   "description": "Utility to generate openssl certificates for local development.",
   "repository": {
     "type": "git",
@@ -35,9 +35,10 @@
   "dependencies": {
     "chalk": "^2.3.0",
     "commander": "^2.12.2",
-    "dedent": "^0.7.0"
+    "dedent": "^0.7.0",
+    "util.promisify": "^1.0.0"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=6"
   }
 }

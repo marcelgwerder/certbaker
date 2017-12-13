@@ -1,3 +1,4 @@
+require('util.promisify/shim')();
 const assert = require('assert');
 const util = require('util');
 const { CERT_DIR, APP_DIR } = require('../lib/constants');
