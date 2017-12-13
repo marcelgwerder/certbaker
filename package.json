@@ -1,6 +1,6 @@
 {
   "name": "certbaker",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0",
   "description": "Utility to generate openssl certificates for local development.",
   "repository": {
     "type": "git",
